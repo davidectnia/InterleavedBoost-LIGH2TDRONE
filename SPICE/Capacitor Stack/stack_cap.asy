@@ -1,0 +1,28 @@
+Version 4
+SymbolType CELL
+LINE Normal 16 36 16 64
+LINE Normal 16 28 16 0
+LINE Normal 0 28 32 28
+LINE Normal 0 36 32 36
+LINE Normal -44 28 -12 28
+LINE Normal -44 36 -12 36
+LINE Normal 44 28 76 28
+LINE Normal 44 36 76 36
+LINE Normal 60 15 60 28
+LINE Normal 16 15 60 15
+LINE Normal -32 15 16 15
+LINE Normal -32 28 -32 15
+LINE Normal -32 49 -32 36
+LINE Normal 12 49 -32 49
+LINE Normal 60 49 12 49
+LINE Normal 60 36 60 49
+WINDOW 3 24 56 Left 2
+SYMATTR Value Stack_Out
+SYMATTR Prefix C
+SYMATTR Description Capacitor
+PIN 16 0 NONE 8
+PINATTR PinName C+
+PINATTR SpiceOrder 1
+PIN 16 64 NONE 8
+PINATTR PinName C-
+PINATTR SpiceOrder 2
