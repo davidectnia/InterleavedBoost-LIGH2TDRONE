@@ -1,0 +1,4 @@
+../Core/Src/control_loop.c:53:21:Controller_Update	3
+../Core/Src/control_loop.c:68:20:Controller_Reset	3
+../Core/Src/control_loop.c:80:6:ControlLoop_ResetAll	2
+../Core/Src/control_loop.c:87:6:ControlLoop_Execute	16

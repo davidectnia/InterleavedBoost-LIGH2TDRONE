@@ -1,0 +1,3 @@
+../Core/Src/analog_sensing.c:31:7:check_Temperature	16	static
+../Core/Src/analog_sensing.c:39:6:AnalogSensing_InitOffsets	24	static
+../Core/Src/analog_sensing.c:48:6:AnalogSensing_Update	48	static

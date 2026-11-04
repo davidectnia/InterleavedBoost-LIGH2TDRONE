@@ -1,0 +1,4 @@
+../Core/Src/control_loop.c:53:21:Controller_Update	24	static
+../Core/Src/control_loop.c:68:20:Controller_Reset	16	static
+../Core/Src/control_loop.c:80:6:ControlLoop_ResetAll	24	static
+../Core/Src/control_loop.c:87:6:ControlLoop_Execute	56	static

@@ -1,0 +1,4 @@
+../Core/Src/telemetry.c:27:6:Telemetry_Init	1
+../Core/Src/telemetry.c:31:6:Telemetry_Process	6
+../Core/Src/telemetry.c:68:6:HAL_UART_RxCpltCallback	8
+../Core/Src/telemetry.c:85:6:HAL_UART_ErrorCallback	2
