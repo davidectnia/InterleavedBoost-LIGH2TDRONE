@@ -1,0 +1,3 @@
+../Core/Src/power_stage.c:14:6:PowerStage_UpdatePhases	24	static
+../Core/Src/power_stage.c:84:13:PowerStage_ApplyDutyCycles	12	static
+../Core/Src/power_stage.c:104:6:PowerStage_EmergencyStop	0	static
