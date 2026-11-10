@@ -4,7 +4,7 @@
 ![Control](https://img.shields.io/badge/Control-Dual%20Loop%20Current%20Mode-success.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
-This repository contains the bare-metal C firmware for a custom **Four-Phases Interleaved Boost Converter**, powered by an STM32 microcontroller. The system features a hard real-time digital control loop, dynamic phase shedding, and robust thermal protections, leveraging the STM32 High-Resolution Timer (HRTIM) for precise PWM generation and ADC synchronization.
+This repository contains the bare-metal C firmware for a custom **Four-Phases Interleaved Boost Converter**, powered by an STM32-F334R8 Nucleo Board. The system features a hard real-time digital control loop, dynamic phase shedding, and robust thermal protections, leveraging the STM32 High-Resolution Timer (HRTIM) for precise PWM generation and ADC synchronization.
 
 ## ⚙️ Hardware Overview
 
@@ -42,14 +42,14 @@ Ensure the project is compiled with Hardware FPU enabled (`-mfloat-abi=hard`) an
 ### Live Expressions (STM32CubeIDE)
 During active debugging, the following global variables can be monitored or modified on the fly:
 * `Vout_Meas_V`, `Iout_Meas_A`, `Iphase_Total_A`: Physical measurements.
-* `Temperature_DegC`: Current NTC temperature.
+* `temperature_deg_celsius`: Current NTC temperature.
 * `ClosedLoopRequest`: Set to `1` to initiate the bumpless transfer to closed-loop.
 * `TargetDutyPercent`: Adjust manual duty cycle in Open-Loop mode.
 
 ### UART Interface
-Connect a Serial Terminal (115200 8-N-1) to the telemetry port.
+Connect a Serial Terminal (115200 baud) to the telemetry port.
 * **Telemetry**: Receives periodic strings formatted as `[CL] Vout: 44.40 V | Iout: 2.10 A ...`
 * **Commands**: Send a float value terminated by `\n` (e.g., `48.5\n` or `48,5\r`) to dynamically update the voltage reference target (`Vout_Ref`).
 
 ---
-*Developed for academic/research purposes in power electronics and digital control.*
+*Developed for academic purposes in power electronics and digital control.*

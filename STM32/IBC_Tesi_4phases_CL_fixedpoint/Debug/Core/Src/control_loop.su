@@ -1,0 +1,2 @@
+../Core/Src/control_loop.c:103:6:ControlLoop_ResetAll	4	static
+../Core/Src/control_loop.c:110:13:ControlLoop_Execute	48	static
